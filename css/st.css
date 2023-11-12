@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: white;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: black;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
+  align-items: center;
+  background-color: rgb(255, 205, 251);
+  padding: 12px;
+  border-radius: 0 0 20px 20px;
+  gap: 10px;
+}
+header h2 {
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+}
+header h3 {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  opacity: 0.9;
+}
+
+.obladany {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.obladany .title__obladany {
+  font-size: 20px;
+  font-weight: 700;
+}
+.obladany .obladany__conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.obladany .obladany__conteiner .block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.obladany .obladany__conteiner .block img {
+  width: 100px;
+  height: 100px;
+}
+.obladany .obladany__conteiner .block p {
+  color: black;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.title .title__tema span {
+  font-weight: 700;
+  font-size: 18px;
+}
+.title .title__meta span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.warning {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.warning h3 {
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #12141d;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  font-size: 26px;
+}
+.warning p {
+  background-color: aliceblue;
+  color: black;
+  padding: 15px;
+  width: 500px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+}
+
+.podg {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.podg .title__podg {
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #12141d;
+  color: aliceblue;
+  border-radius: 10px;
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.podg .cont {
+  display: flex;
+  justify-content: center;
+  margin-left: 230px;
+  gap: 30px;
+}
+.podg .cont .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.podg .cont .text p {
+  background-color: aliceblue;
+  color: black;
+  padding: 15px;
+  width: 500px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+}
+.podg .cont .text .two {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 10px;
+}
+.podg .cont .text .two p {
+  width: 200px;
+}
+.podg .cont img {
+  background-color: aliceblue;
+  width: 200px;
+  height: 200px;
+}
+
+.point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+.point p {
+  width: 350px;
+  border: 1px solid white;
+  padding: 20px;
+}
+.point img {
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 500px;
+}
+.point img:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.formul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.formul h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: rgb(255, 205, 251);
+  color: black;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}/*# sourceMappingURL=st.css.map */

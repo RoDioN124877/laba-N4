@@ -1,0 +1,35 @@
+.obladany{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .title__obladany{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .obladany__conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 300px;
+        gap: 20px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        .block{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            p{
+                color: black;
+            }
+        }
+    }
+}

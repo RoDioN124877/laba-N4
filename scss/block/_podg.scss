@@ -1,0 +1,59 @@
+.podg {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+    .title__podg {
+        text-align: center;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: #12141d;
+        color: aliceblue;
+        border-radius: 10px;
+        width: 500px;
+        padding: 20px;
+        margin: auto;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .cont {
+        display: flex;
+        justify-content: center;
+        margin-left:230px;
+        gap: 30px;
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            p {
+                background-color: aliceblue;
+                color: black;
+                padding: 15px;
+                width: 500px;
+                border-radius: 20px;
+                font-size: 20px;
+                font-weight: 500;
+                margin: auto;
+                text-align: center;
+            }
+
+            .two {
+                display: flex;
+                flex-wrap: wrap;
+                width: 500px;
+                gap: 10px;
+                p {
+                    width: 200px;
+                }
+            }
+        }
+
+        img {
+            background-color: aliceblue;
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+
+}
